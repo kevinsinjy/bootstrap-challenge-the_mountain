@@ -1,0 +1,108 @@
+/*tags*/
+
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    font-family: 'Rokkitt', serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*Classes*/
+
+.borders {
+    background-color: rgba(0, 239, 247, 0.562);
+    color: white;
+    /* right: 20vh;*/
+    /* height: 100vh; */
+  /*  width: 100vh; */
+}
+
+.card-columns .card{
+    padding:0;
+
+}
+
+.cards{
+    background-color: rgba(0, 239, 247, 0.562);
+    color: white;
+    border-style: solid;
+    border-color: white;
+}
+
+.columns {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.fa-pencil-alt, .fa-camera, .fa-bookmark {
+    font-size: 10vh;
+    margin-bottom: 5vh;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.jumbotron {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-image: url('../images/bg_header.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* 
+.square {
+    border-style: solid;
+    border-color: white;
+    color: white;
+    width: 75vh;
+    bottom: 50vh;
+    left: 14vh;
+} */
+
+/*ID*/
+
+#fifth-section {
+    margin-top: 10vh;
+    background: url('../images/bg_appareil_photo.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo {
+    width: 10%;
+}
+
+
+
+#second-section {
+    margin-top: 10vh;
+    background: url('../images/bg_nuage.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+#sixth-section {
+    margin-top: 5vh;
+    height: 100vh;
+}
+
+
+
